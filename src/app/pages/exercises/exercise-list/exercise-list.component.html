@@ -1,0 +1,11 @@
+@if (exerciseList$ | async; as exerciseList) {
+<div class="exercise-list-container">
+  <h1>Lista de rutinas</h1>
+  <ul>
+    @for (exercise of exerciseList; track exercise) {
+    <li>{{ exercise.name }}</li>
+    }
+  </ul>
+</div>
+
+}

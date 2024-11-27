@@ -1,0 +1,7 @@
+.header-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
